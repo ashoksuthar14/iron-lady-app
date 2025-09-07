@@ -1,0 +1,28 @@
+body {
+  background-color: #f6f7fb;
+}
+
+.chat-list {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+.message-item:hover .message-actions {
+  opacity: 1;
+}
+
+.message-actions {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.message-meta {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.message-content {
+  white-space: pre-wrap;
+}
+
+
